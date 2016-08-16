@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65230F521D638C6400FC7913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65230F511D638C6400FC7913 /* main.m */; };
+		65230F5D1D638D5300FC7913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65230F581D638D5300FC7913 /* main.m */; };
+		65230F5E1D638D5300FC7913 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 65230F5A1D638D5300FC7913 /* Character.m */; };
+		65230F5F1D638D5300FC7913 /* Useful Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65230F5C1D638D5300FC7913 /* Useful Functions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		65230F4E1D638C6400FC7913 /* Self Portrait */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Self Portrait"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65230F511D638C6400FC7913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65230F581D638D5300FC7913 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../Arena/Arena/main.m; sourceTree = "<group>"; };
+		65230F591D638D5300FC7913 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../../../Arena/Arena/Character.h; sourceTree = "<group>"; };
+		65230F5A1D638D5300FC7913 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = ../../../Arena/Arena/Character.m; sourceTree = "<group>"; };
+		65230F5B1D638D5300FC7913 /* Useful Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Useful Functions.h"; path = "../../../Arena/Arena/Useful Functions.h"; sourceTree = "<group>"; };
+		65230F5C1D638D5300FC7913 /* Useful Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Useful Functions.m"; path = "../../../Arena/Arena/Useful Functions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		65230F501D638C6400FC7913 /* Self Portrait */ = {
 			isa = PBXGroup;
 			children = (
-				65230F511D638C6400FC7913 /* main.m */,
+				65230F581D638D5300FC7913 /* main.m */,
+				65230F591D638D5300FC7913 /* Character.h */,
+				65230F5A1D638D5300FC7913 /* Character.m */,
+				65230F5B1D638D5300FC7913 /* Useful Functions.h */,
+				65230F5C1D638D5300FC7913 /* Useful Functions.m */,
 			);
 			path = "Self Portrait";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65230F521D638C6400FC7913 /* main.m in Sources */,
+				65230F5D1D638D5300FC7913 /* main.m in Sources */,
+				65230F5F1D638D5300FC7913 /* Useful Functions.m in Sources */,
+				65230F5E1D638D5300FC7913 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				65230F571D638C6400FC7913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
